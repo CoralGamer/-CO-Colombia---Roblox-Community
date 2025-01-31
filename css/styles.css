@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: blue;
+}
+/*Ficha*/
+.ficha{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 10px;
+    padding: 0;
+}
+.contenido_ficha{
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+
+}
+.columna1 img{
+    width: 100%;
+
+}
+.columna1{
+
+    padding: 0;
+}
+.titulo_c{
+    height: 30%;
+    line-height: 5px;
+}
+.titulo_c h3{
+    font-family: Builder Sans,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding-top: 15px;
+    margin: 0;
+}
+.titulo_c h5{
+    font-family: Builder Sans,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px 0px 20px 0px;
+}
+.titulo_c h5 a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.spacing_c{
+    height: 50%;    
+}
+.boton_c{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton_c a{
+    width: 90%;
+    height: 65%;
+    padding: 0;
+    background-color: #00b06f;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.boton_c i{
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+}
+/*estilo de licencia*/
+/*.license_Style{
+    background-color: red;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.mainCC{
+    font-weight: 700;
+    font-size: 19px;
+    text-align: right;
+    background-color: rgb(105, 192, 233);
+    color: rgb(51, 51, 51);
+}
+.logosCC{
+    padding: 0;
+}
+.CC_BY_NC_ND_4_0 a{
+    text-decoration: none;
+    justify-content: center;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(152, 223, 255);
+}
+.col-12{
+    padding: 0;
+    margin: 0;
+}*/
+.cc_structure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.CC_Style{
+    text-align: center;
+    font-size: 15px;
+}
+.CC_Style p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
